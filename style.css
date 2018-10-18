@@ -7,7 +7,7 @@ h1 {
 	font-family: "bagnard";
 	font-size: 45px;
 	color: darkblue;
-	margin: auto;
+	margin-top: -10px;
 	text-align: center;
 	z-index: 100
 }
@@ -15,9 +15,9 @@ h1 {
 h2 {
 	font-family: "bagnard";
 	font-size: 16px;
-	justify-content: center;
+	justify-content: left;
 	color: darkblue;
-	margin: auto;
+	margin-top: 50px;
 	text-align: center;
 	z-index: 90
 }
@@ -26,7 +26,7 @@ p {
 	font-family: "bagnard";
 	font-size: 12px;
 	color: darkblue;
-	margin: auto;
+	margin-top: 70px;
 	text-align: center;
 }
 
@@ -35,60 +35,60 @@ a {
 }
 
 .red {
-	width: 300px;
+	width: 800px;
 	height: 100px;
-	margin: auto;
+
 }
 
 .pink {
-	width: 50px;
+	width: 80px;
 	height: 30px;
-	margin: auto;
+
 }
 
 .yellow {
 	width: 600px;
-	height: 600px;
-	margin: auto;
+
 }
 
 .green {
 	width: 70px;
 	height: 50px;
-	margin: auto;
+
 }
 
 .red {
-	background-color: white;
-	margin: auto;
+	background-color: transparent;
+	margin-top: 0px;
 	align-content: center;
+		position: fixed;
 }
 
 .pink {
-	background-color: white;
-	margin: auto;
-	align-content: center;
+	background-color: transparent;
+	margin-top: -5px;
+	align-content: left;
+		position: fixed;
 }
 
 .yellow {
-	background-color: white;
-	margin: auto;
+	background-color: transparent;
+	margin-top: 50px;
 }
 
 .green {
-	background-color: white;
-	margin: auto;
+	background-color: transparent;
+	margin-top: 50px;
+		position: fixed, left;
 }
 
 .space-around {
-	justify-content: ;
-	margin: auto;
+
 }
 
 .flex-vertical {
 	display: flex;
 	height: 1200px;
-	flex-wrap: wrap;
 	flex-direction: row;
-	margin: auto;
+	margin-top: 50px;
 }
